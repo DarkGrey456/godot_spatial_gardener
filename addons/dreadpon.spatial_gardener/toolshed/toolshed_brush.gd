@@ -152,7 +152,7 @@ func _set(prop, val):
 	return return_val
 
 
-func _get(prop):
+func _get(prop)->Variant:
 	match prop:
 		"behavior/behavior_brush_type":
 			return behavior_brush_type
